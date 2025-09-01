@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing Page</title>
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+ 
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+        }
+
+ 
+
+        .navbar {
+
+            position: fixed;
+
+            top: 0;
+
+            width: 100%;
+
+            background-color: rgba(0, 0, 0, 0.8);
+
+            display: flex;
+
+            align-items: center;
+
+            padding: 10px 20px;
+
+            z-index: 1000;
+
+        }
+
+ 
+
+        .logo {
+
+            width: 50px;
+
+            height: auto;
+
+            margin-right: 20px;
+
+        }
+
+ 
+
+        .title {
+
+            color: white;
+
+            margin-right: auto;
+
+        }
+
+ 
+
+        .nav-links {
+
+            list-style: none;
+
+            display: flex;
+
+        }
+
+ 
+
+        .nav-links li {
+
+            margin: 0 15px;
+
+        }
+
+ 
+
+        .nav-links a {
+
+            color: white;
+
+            text-decoration: none;
+
+            padding: 5px 10px;
+
+            transition: background-color 0.3s;
+
+        }
+
+ 
+
+        .nav-links a:hover {
+
+            background-color: rgba(255, 255, 255, 0.2);
+
+            border-radius: 5px;
+
+        }
+
+ 
+
+        .background-image {
+
+            background-image: url("C:\Users\urk23cs1297\Downloads\images.jpg"); /* Replace with your background image */
+
+            background-size: cover;
+
+            height: 100vh;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            padding-top: 60px; /* To avoid navbar overlap */
+
+        }
+
+ 
+
+        .login-form {
+
+            background-color: rgba(255, 255, 255, 0.9);
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+            width: 300px;
+
+        }
+
+ 
+
+        .login-form h2 {
+
+            margin-bottom: 20px;
+
+        }
+
+ 
+
+        .login-form label {
+
+            display: block;
+
+            margin-bottom: 5px;
+
+        }
+
+ 
+
+        .login-form input {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-bottom: 15px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            transition: border-color 0.3s;
+
+        }
+
+ 
+
+        .login-form input:focus {
+
+            border-color: #007BFF;
+
+            outline: none;
+
+        }
+
+ 
+
+        .login-form button {
+
+            width: 100%;
+
+            padding: 10px;
+
+            background-color: #007BFF;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s;
+
+        }
+
+ 
+
+        .login-form button:hover {
+
+            background-color: #0056b3;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <img src="C:\Users\urk23cs1297\Downloads\images.jpg" alt="C:\Users\urk23cs1297\Downloads\images.jpg" class="C:\Users\urk23cs1297\Downloads\images.jpg"> <!-- Replace with your logo image -->
+
+        <h1 class="title">Welcome to Our Application</h1>
+
+        <ul class="nav-links">
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+ 
+
+    <div class="background-image">
+
+        <div class="login-form">
+
+            <h2>Login</h2>
+
+            <form>
+
+                <label for="username">Username:</label>
+
+                <input type="text" id="username" name="username" required>
+
+                
+
+                <label for="password">Password:</label>
+
+                <input type="password" id="password" name="password" required>
+
+               
+
+                <button type="submit">Login</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+ 
